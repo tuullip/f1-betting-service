@@ -1,11 +1,13 @@
 package com.sporty.f1_betting_service.service.eventprovider;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.Instant;
 
 @Data
+@Builder
 public class Session {
     @JsonProperty("session_key")
     private Integer sessionKey;

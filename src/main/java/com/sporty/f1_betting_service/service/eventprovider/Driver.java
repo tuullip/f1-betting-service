@@ -1,9 +1,11 @@
 package com.sporty.f1_betting_service.service.eventprovider;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class Driver {
     @JsonProperty("broadcast_name")
     private String broadcastName;

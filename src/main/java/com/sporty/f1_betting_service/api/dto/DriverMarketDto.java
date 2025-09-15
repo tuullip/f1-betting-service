@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class DriverMarketDto {
 
-    private String driverId;
+    private Integer driverId;
     private String firstName;
     private String lastName;
     private Integer oddsToWinEvent;
